@@ -2,7 +2,7 @@ import React from "react";
 
 function SearchField() {
   return (
-    <div className="input-border w-full h-[40px] md:h-[68px]">
+    <div className="input-border w-full h-[40px] md:h-[68px] ">
       <div className="content">
         <input
           placeholder="Enter Your prompt here"

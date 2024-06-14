@@ -9,7 +9,7 @@ const Cards = () => {
   };
 
   return (
-    <section className="max-w-[1440px] mx-auto mt-[52px] px-6 lg:px-[120px] relative ">
+    <section className="max-w-[1440px] mx-auto mt-[0px] md:mt-[52px] px-6 lg:px-[120px] relative ">
       <div
         className="md:flex justify-end cursor-pointer absolute right-[60px] bottom-[-35px] hidden "
         onClick={handleScrollToTop}
