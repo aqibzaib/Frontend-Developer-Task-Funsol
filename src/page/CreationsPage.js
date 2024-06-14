@@ -1,5 +1,5 @@
 import React from "react";
-import SideBar from "../components/creations/SideBar";
+import MyCreations from "../components/creations/MyCreations";
 import RightSideBar from "../components/creations/RightSideBar";
 import CreationMain from "../components/creations/CreationMain";
 import Header from "../components/creations/Header";
@@ -9,14 +9,14 @@ const CreationsPage = () => {
   return (
     <div>
       <Header />
-   <div className="flex justify-between gap-[0px]">
-   <SideBar />
-      <CreationMain />
-      <RightSideBar />
-   </div>
-   <div className="block md:hidden">
-   <Footer />
-   </div>
+      <div className="flex justify-between gap-[0px]">
+        <MyCreations />
+        <CreationMain />
+        <RightSideBar />
+      </div>
+      <div className="block md:hidden">
+        <Footer />
+      </div>
     </div>
   );
 };
