@@ -4,7 +4,7 @@ import SearchField from "./SearchField";
 const Main = () => {
   return (
     <section className="max-w-[925px] mx-auto">
-      <div className="px-6">
+      <div className=" px-6">
         <h2 className="text-[20px] font-[600] md:text-[50px] text-center font-poppins text-[#222222]">
           AI Art Generator
         </h2>

@@ -68,7 +68,7 @@ const AspectRatio = () => {
           </div>
         ))}
       </div>
-      <div className="w-full h-[1px] bg-[#EEEEEE] my-[20px]"></div>
+      <div className="w-full h-[1px] bg-[#EEEEEE] my-[16px] md:my-[20px]"></div>
     </section>
   );
 };

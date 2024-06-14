@@ -14,7 +14,7 @@ const Header = () => {
   return (
     <>
       <section className="max-w-full mx-auto pl-6 pr-[4px] lg:px-6">
-        <div className="flex justify-between py-[22px]">
+        <div className="flex justify-between items-center md:items-start py-[10px] md:py-[22px]">
           <div className="flex flex-row gap-[50px]">
             <Link
               to="/"
@@ -41,12 +41,12 @@ const Header = () => {
             </div>
           </div>
 
-          <ProfileIcon />
+          <ProfileIcon width="20px" height="20px"/>
         </div>
       </section>
       <div className="bg-[#EEEEEE] h-[1px] w-full"></div>
       <div className="block lg:hidden">
-        <div className="flex justify-between pl-[10px] pr-[10px] lg:pl-6 gap-[6px] mt-[20px]">
+        <div className="flex justify-between pl-[10px] pr-[10px] lg:pl-6 gap-[6px] mt-[16px] md:mt-[20px]">
           {NavLinks.map((buttonName) => (
             <button
               key={buttonName}

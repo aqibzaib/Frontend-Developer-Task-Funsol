@@ -2,17 +2,17 @@ import React, { useState } from "react";
 import { CartIcon, CreationIcon, HomeIcon } from "../../assets/icons";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
-  const [activeTab, setActiveTab] = useState("home");
+const Footer = ({creationPage}) => {
+  const [activeTab, setActiveTab] = useState(`${creationPage ?"create":"home"}`);
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
 
   return (
-    <div className="max-w-[365px] mx-auto shadow-[#00000014] mt-[14px]">
-      {/* <div className="w-full h-[1px] bg-[#00000014] mt-[17px]"></div> */}
-      <div className="flex justify-around pb-[7px] pt-[4px]">
+    <div className="footer max-w-[365px] mx-auto shadow-[#00000014] mt-[14px]">
+
+      <div className=" flex justify-around pb-[7px] pt-[4px]">
         <Link
           to="/"
           className={`group cursor-pointer flex flex-col items-center ${

@@ -15,7 +15,7 @@ const CreationsPage = () => {
         <RightSideBar />
       </div>
       <div className="block md:hidden">
-        <Footer />
+        <Footer creationPage={true} />
       </div>
     </div>
   );
