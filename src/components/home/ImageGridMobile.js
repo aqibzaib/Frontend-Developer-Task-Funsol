@@ -69,7 +69,7 @@ const data = [
 
 const ImageGridItem = ({ items, isEven, index }) => {
   return (
-    <div className="grid grid-cols-2 gap-2 mb-4 relative mt-[-20px]">
+    <div className="grid grid-cols-2 gap-2 mb-4 relative ">
       <div
         className={`relative ${
           isEven ? "col-span-1 row-span-2 h-[220px]" : "h-[105px]"
