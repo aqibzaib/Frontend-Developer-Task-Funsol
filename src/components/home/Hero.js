@@ -15,18 +15,9 @@ const Main = () => {
             choose a style, AI art generator bring your ideas to life!
           </p>
         </div>
-        {/* <div className='bg-red-600 relative'>
-        <div className=''>
-        <input type="text"  placeholder='Enter Prompt here'/>
-        </div>
-        <button className='absolute right-0'>Generate</button>
-        </div> */}
         <SearchField />
         <div>
-          <p
-            className="font-poppins text-[40px] font-[600] text-center leading-[60px] mt-[60px] mb-[40px] text-[#222222];
-]"
-          >
+          <p className="font-poppins text-[20px] md:text-[40px] font-[600] text-center leading-[60px] mt-[60px] mb-[40px] text-[#222222]">
             Inspirations
           </p>
         </div>

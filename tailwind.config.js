@@ -8,6 +8,11 @@ module.exports = {
         audiowide: ["Audiowide", "cursive"],
         urbanist: ["Urbanist", "sans-serif"],
       },
+      screens: {
+        // Existing breakpoints here
+        xs: "450px", // Add the new breakpoint
+        // Other existing breakpoints
+      },
     },
   },
   plugins: [],
