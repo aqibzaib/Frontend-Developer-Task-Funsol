@@ -13,12 +13,12 @@ const ResultPage = () => {
 
   const handleShareClick = () => {
     setIsShareClicked(true);
-    setIsDownloadClicked(false); // Reset the other button state
+    setIsDownloadClicked(false); 
   };
 
   const handleDownloadClick = () => {
     setIsDownloadClicked(true);
-    setIsShareClicked(false); // Reset the other button state
+    setIsShareClicked(false); 
   };
 
   return (
