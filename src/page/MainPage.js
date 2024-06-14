@@ -12,7 +12,6 @@ function MainPage() {
       <Main />
       <Tabs />
       <Cards />
-      
     </>
   );
 }
