@@ -13,7 +13,7 @@ const Header = () => {
 
   return (
     <>
-      <section className="max-w-full mx-auto pl-6 pr-[4px] lg:px-6">
+      <section className="max-w-full mx-auto pl-6 pr-6 md:pr-[4px] lg:px-6">
         <div className="flex justify-between items-center md:items-start py-[10px] md:py-[22px]">
           <div className="flex flex-row gap-[50px]">
             <Link
