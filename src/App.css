@@ -127,3 +127,10 @@
     align-items: center;
   }
 }
+
+@media (min-width: 450px) and (max-width: 767px) {
+  .modal {
+    width: 100%;
+    
+  }
+}

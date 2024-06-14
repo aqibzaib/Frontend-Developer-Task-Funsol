@@ -34,7 +34,7 @@ export const ModelAndStyle = () => {
             <img
               src={item.img}
               alt="icon"
-              className="w-[113px] h-[90px] rounded-[10px] object-cover"
+              className="modal w-[113px] h-[90px] rounded-[10px] object-cover"
             />
           
           </Link>

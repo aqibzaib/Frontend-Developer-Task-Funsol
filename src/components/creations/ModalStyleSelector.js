@@ -26,7 +26,7 @@ const ModelStyleSelector = () => {
         {items.map((item, index) => (
           <div
             key={index}
-            className={`flex justify-between gap-[58px] cursor-pointer pl-[10px] pr-[10px] py-[5px] border-[1px] rounded-[12px] ${
+            className={`modal flex justify-between gap-[58px] cursor-pointer pl-[10px] pr-[10px] py-[5px] border-[1px] rounded-[12px] ${
               clickedItem === index
                 ? "border-[#FA5711] bg-[#FA57111A]"
                 : "border-[#FA57111A] hover:border-[#FA5711] hover:bg-[#FA57111A]"

@@ -33,7 +33,7 @@ const RightSideBar = () => {
         />
       </div>
       <div className="h-[1px] w-full font-poppins text-[#222222] bg-[#EEEEEE] mt-[15px] mb-[20px]"></div>
-      <div className="flex gap-[5px]">
+      <div className="flex justify-center gap-[5px]">
         <p className="text-[16px] font-[500]">Aspect Ratio</p>
         <img
           src={infoPng}
