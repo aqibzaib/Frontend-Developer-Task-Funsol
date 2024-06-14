@@ -26,6 +26,9 @@ Ensure you have Node.js (version 14 or above) and npm installed. Download Node.j
 # Routing Details
 This project uses React Router for navigation between different pages. Here's how the routes are configured:
 
-Home Page (/): Clicking on "Art Generator" in the navbar will navigate to the Home page.
-Photo Editing Tool (/text-to-image): Clicking on "Photo Editing Tool" in the navbar will navigate to the Text-to-Image page.
-Image Details (/image-details): Clicking on an image in the Text-to-Image page will navigate to the Image Details page.
+1. **Route 1**: 
+   Home Page (/): Clicking on "Art Generator" in the navbar will navigate to the Home page.
+2. **text-to-image**: 
+  Photo Editing Tool (/text-to-image): Clicking on "Photo Editing Tool" in the navbar will navigate to the Text-to-Image page.
+3. **image-details**: 
+  Image Details (/image-details): Clicking on an image in the Text-to-Image page will navigate to the Image Details page.
