@@ -1,6 +1,7 @@
 import React from "react";
 import ImageGrid from "./ImageGrid";
 import ImageGridMobile from "./ImageGridMobile";
+import { ArrowUpIcon } from "../../assets/icons";
 
 const Cards = () => {
   const handleScrollToTop = () => {
@@ -13,7 +14,7 @@ const Cards = () => {
         className="md:flex justify-end cursor-pointer absolute right-[60px] bottom-[-35px] hidden "
         onClick={handleScrollToTop}
       >
-        <img src="./Images/ArrowUp.png" alt="up arrow" />
+        <ArrowUpIcon />
       </div>
       <div className="hidden md:block">
         <ImageGrid />

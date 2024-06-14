@@ -1,7 +1,8 @@
 import React from "react";
 import AspectRatio from "./AspectRatio";
 import { ModelAndStyle } from "./ModelAndStyle";
-
+import infoPng from "../../assets/images/info.png";
+import { ArrowDownIcon } from "../../assets/icons";
 const RightSideBar = () => {
   return (
     <section className="w-full  md:max-w-[400px] pl-[6px] pr-[10px] lg:p-6 border-[1px] border-[#EEEEEE] border-t-[0px] pt-[30px]">
@@ -30,14 +31,15 @@ const RightSideBar = () => {
           alt="loading"
           className="w-[5px] h-[5px]"
         />
+        <ArrowDownIcon width="5px" height="5px" color="#FA5711" />
       </div>
       <div className="h-[1px] w-full font-poppins text-[#222222] bg-[#EEEEEE] mt-[15px] mb-[20px]"></div>
       <div className="flex gap-[5px]">
         <p className="text-[16px] font-[500]">Aspect Ratio</p>
         <img
-          src="./Images/Info.png"
-          alt="loaing"
-          className="w-[20px] h-[20px] mt-[4px]"
+          src={infoPng}
+          alt="info icon"
+          className="w-[20px] h-[20px] mt-[2px]"
         />
       </div>
       <AspectRatio />

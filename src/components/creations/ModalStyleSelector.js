@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import img_10 from "../../assets/images/img_10.png";
 import img_11 from "../../assets/images/img_11.png";
+import { InfoIcon } from "../../assets/icons";
 
 const ModelStyleSelector = () => {
   const items = [
@@ -19,7 +20,7 @@ const ModelStyleSelector = () => {
         <p className="text-[16px] font-[500] font-poppins leading-[24px]">
           Models & Styles
         </p>
-        <img src="./Images/Info.png" alt="info" className="w-[20px] h-[20px]" />
+        <InfoIcon/>
       </div>
       <div className="flex gap-[12px]">
         {items.map((item, index) => (

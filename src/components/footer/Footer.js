@@ -3,7 +3,7 @@ import { CartIcon, CreationIcon, HomeIcon } from "../../assets/icons";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const [activeTab, setActiveTab] = useState("");
+  const [activeTab, setActiveTab] = useState("home");
 
   const handleTabClick = (tab) => {
     setActiveTab(tab);
@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <div className="max-w-[365px] mx-auto shadow-[#00000014] mt-[14px]">
       {/* <div className="w-full h-[1px] bg-[#00000014] mt-[17px]"></div> */}
-      <div className="flex justify-around py-[7px]">
+      <div className="flex justify-around pb-[7px] pt-[4px]">
         <Link
           to="/"
           className={`group cursor-pointer flex flex-col items-center ${

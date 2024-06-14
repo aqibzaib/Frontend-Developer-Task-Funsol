@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { ArrowDownIcon } from "../../assets/icons";
+import manIcon from '../../assets/images/Man.png'
 const Navbar = () => {
   return (
     <section className="max-w-[1440px] mx-auto">
@@ -15,19 +16,19 @@ const Navbar = () => {
                 to="/text-to-image"
                 className="font-poppins text-[16px] text-[#222222] font-[400] leading-[28px] flex items-center justify-center"
               >
-                Photo Editing Tools
-                <ArrowDownIcon />
+              Photo Editing Tools
+                <ArrowDownIcon width="20px" height="20px" color="#D9D9D9" />
               </Link>
               <Link
                 to="/image-to-image"
                 className=" font-poppins text-[16px] text-[#222222] font-[400] leading-[28px] flex items-center justify-center"
               >
                 AI Tools
-                <ArrowDownIcon />
+                <ArrowDownIcon width="20px" height="20px" color="#D9D9D9" />
               </Link>
               <li className="font-poppins text-[16px] text-[#222222] font-[400] leading-[28px] flex items-center justify-center gap-1">
                 Support
-                <ArrowDownIcon />
+                <ArrowDownIcon width="20px" height="20px" color="#D9D9D9" />
               </li>
             </ul>
           </div>
@@ -36,10 +37,11 @@ const Navbar = () => {
           Sign In
         </button>
         <img
-          src="./Images/man.png"
-          alt="loading..."
+          src={manIcon}
+          alt="Avatar"
           className="block md:hidden w-[20px] h-[20px] mt-[8px]"
         />
+        
       </div>
     </section>
   );

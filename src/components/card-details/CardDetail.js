@@ -6,10 +6,10 @@ import myImage from "../../assets/images/image_details.png";
 
 import { LeftIcon } from "../../assets/icons";
 import { Link } from "react-router-dom";
-
+import manIcon from '../../assets/images/Man.png'
 const ResultPage = () => {
   const [isShareClicked, setIsShareClicked] = useState(false);
-  const [isDownloadClicked, setIsDownloadClicked] = useState(false);
+  const [isDownloadClicked, setIsDownloadClicked] = useState(true);
 
   const handleShareClick = () => {
     setIsShareClicked(true);
@@ -28,8 +28,8 @@ const ResultPage = () => {
           ART GENERATOR
         </p>
         <img
-          src="./Images/man.png"
-          alt="loading..."
+          src={manIcon}
+          alt="Avatar"
           className=" w-[20px] h-[20px] mt-[10px]"
         />
       </div>
