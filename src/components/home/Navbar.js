@@ -5,7 +5,7 @@ import manIcon from '../../assets/images/Man.png'
 const Navbar = () => {
   return (
     <section className="max-w-[1440px] mx-auto">
-      <div className="flex justify-between py-[22px] lg:py-[22px] px-6 lg:px-[120px]">
+      <div className="flex justify-between py-[22px] lg:py-[22px] px-6 lg:px-[120px] borde">
         <div className="flex flex-row  md:[30px] lg:gap-[50px] ">
           <p className="font-audiowide font-[400] text-[16px] md:text-[28px] leading-[35.7px] bg-clip-text text-transparent bg-gradient-to-r from-[#E57050] to-[#DB2268] cursor-pointer">
             ART GENERATOR

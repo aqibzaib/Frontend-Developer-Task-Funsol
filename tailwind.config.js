@@ -11,6 +11,7 @@ module.exports = {
       screens: {
         // Existing breakpoints here
         xs: "450px", // Add the new breakpoint
+        bmd:"768px"
         // Other existing breakpoints
       },
     },
