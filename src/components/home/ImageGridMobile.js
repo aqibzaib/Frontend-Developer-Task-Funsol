@@ -122,7 +122,7 @@ const ImageGridItem = ({ items, isEven, index }) => {
 const ImageGridMobile = () => {
   return (
     <div className="relative">
-      <div className="p-0 md:p-4 h-[700px] overflow-y-auto border border-yellow-500">
+      <div className="p-0 md:p-4 h-[700px] overflow-y-auto ">
         {data.map((items, index) => (
           <ImageGridItem
             key={index}

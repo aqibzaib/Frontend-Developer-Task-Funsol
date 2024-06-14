@@ -17,7 +17,7 @@ const Main = () => {
         </div>
         <SearchField />
         <div>
-          <p className="border border-red-500 font-poppins text-[20px] md:text-[40px] font-[600] text-center leading-[30px] md:leading-[60px] mt-[24px] mb-[16px] md:mt-[60px] md:mb-[40px] text-[#222222]">
+          <p className=" font-poppins text-[20px] md:text-[40px] font-[600] text-center leading-[30px] md:leading-[60px] mt-[24px] mb-[16px] md:mt-[60px] md:mb-[40px] text-[#222222]">
             Inspirations
           </p>
         </div>
